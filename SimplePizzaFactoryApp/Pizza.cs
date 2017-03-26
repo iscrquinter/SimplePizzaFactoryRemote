@@ -4,9 +4,9 @@ namespace pizzas
 {
 
     abstract public class Pizza {
-        string name;
-        string dough;
-        string sauce;
+        protected string name;
+        protected string dough;
+        protected string sauce;
 
         public string getName() {
             return name;
